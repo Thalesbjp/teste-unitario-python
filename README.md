@@ -2132,35 +2132,35 @@ Antes de finalizar, confira se você concluiu todos os itens:
 
   
 
-- [ ] Python instalado;
+- [x] Python instalado;
 
-- [ ] Visual Studio Code instalado;
+- [x] Visual Studio Code instalado;
 
-- [ ] extensão Python instalada no VS Code;
+- [x] extensão Python instalada no VS Code;
 
-- [ ] pasta do projeto criada;
+- [x] pasta do projeto criada;
 
-- [ ] arquivo `calculadora.py` criado;
+- [x] arquivo `calculadora.py` criado;
 
-- [ ] arquivo `test_calculadora.py` criado;
+- [x] arquivo `test_calculadora.py` criado;
 
-- [ ] funções da calculadora implementadas;
+- [x] funções da calculadora implementadas;
 
-- [ ] testes unitários implementados;
+- [x] testes unitários implementados;
 
-- [ ] testes executados pelo terminal;
+- [x] testes executados pelo terminal;
 
-- [ ] testes passando;
+- [x] testes passando;
 
-- [ ] atividade prática da função `potencia(a, b)` concluída;
+- [x] atividade prática da função `potencia(a, b)` concluída;
 
-- [ ] desafio extra realizado, se solicitado;
+- [x] desafio extra realizado, se solicitado;
 
-- [ ] arquivo `README.md` criado;
+- [x] arquivo `README.md` criado;
 
-- [ ] repositório criado no GitHub;
+- [x] repositório criado no GitHub;
 
-- [ ] projeto enviado para o GitHub.
+- [x] projeto enviado para o GitHub.
 
   
 
