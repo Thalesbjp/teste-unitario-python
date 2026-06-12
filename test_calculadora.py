@@ -2,7 +2,7 @@
 # test_calculadora.py
 import unittest
 
-from calculadora import dividir, multiplicar, potencia, somar, subtrair
+from calculadora import calcular_media, dividir, multiplicar, potencia, somar, subtrair
 
 
 class TestCalculadora(unittest.TestCase):
@@ -67,6 +67,19 @@ class TestCalculadora(unittest.TestCase):
         """Testa se a função calcular_media retorna o número quando a lista contém apenas um número."""
         from calculadora import calcular_media
         self.assertEqual(calcular_media([5]), 5)
+
+    def test_multiplicar_com_varios_casos(self):
+        casos = [
+            (7, 1, 7),
+            (-2, -3, 6),
+            (-2, 3, -6),
+        ]
+        for a, b, esperado in casos:
+            with self.subTest(a=a, b=b):
+                self.assertEqual(multiplicar(a, b), esperado)
+
+    def test_multiplicar_ponto_flutuante(self):
+        self.assertAlmostEqual(multiplicar(0.1, 0.2), 0.02, places=7)
         
 
 if __name__ == "__main__":

@@ -2185,42 +2185,6 @@ OK
 
 ---
 
-## **respontas**
-
-- Função Multiplicação:
-    Prompt
-    ---
-Atue como um professor de Teste de Software.
-
-Tenho a seguinte função Python:
-
-def multiplicar(a, b):
-
-    """Retorna a multiplicação de dois números."""
-
-    return a * b
-
-Quero criar testes unitários usando unittest.
-Liste pelo menos 6 cenários de teste para essa função.
-Para cada cenário, informe:
-- nome do cenário;
-- entrada;
-- resultado esperado;
-- tipo do cenário: caso normal, caso de borda ou caso de erro.
-
-Não gere código ainda. 
-    ---
-
-Nome do Cenário,Entrada,Resultado Esperado,Tipo,Por que é útil?
-Números Inteiros Padrão,"(10, 5)",50,Normal,Verifica a operação aritmética básica.
-Identidade Multiplicativa,"(7, 1)",7,Borda,Garante que o elemento neutro não altere o operando.
-- Multiplicação por Zero,"(100, 0)",0,Borda,Valida o comportamento de anulação da operação.
-Sinais Opostos,"(-5, 5)",-25,Borda,Garante o tratamento correto da álgebra de sinais.
-Precisão de Ponto Flutuante,"(0.1, 0.2)",0.02,Borda,Verifica a precisão em cálculos decimais (evitando erros de ponto flutuante).
-Entrada Não Numérica,"(""a"", 2)",TypeError,Erro,Garante que o sistema trate entradas inválidas adequadamente.
-
-
-
   
 
 ## 24. Checklist final
@@ -2231,27 +2195,27 @@ Antes de entregar, confira:
 
   
 
-- [ ] escolhi uma função para testar;
+- [x] escolhi uma função para testar;
 
-- [ ] escrevi um prompt claro para a IA;
+- [x] escrevi um prompt claro para a IA;
 
-- [ ] pedi cenários antes de pedir código;
+- [x] pedi cenários antes de pedir código;
 
-- [ ] analisei os cenários sugeridos;
+- [x] analisei os cenários sugeridos;
 
-- [ ] removi ou corrigi cenários ruins;
+- [x] removi ou corrigi cenários ruins;
 
-- [ ] gerei testes usando `unittest`;
+- [x] gerei testes usando `unittest`;
 
-- [ ] conferi se os métodos começam com `test_`;
+- [x] conferi se os métodos começam com `test_`;
 
-- [ ] executei os testes no terminal;
+- [x] executei os testes no terminal;
 
-- [ ] corrigi erros encontrados;
+- [x] corrigi erros encontrados;
 
-- [ ] documentei o uso da IA no README;
+- [x] documentei o uso da IA no README;
 
-- [ ] subi o projeto para o GitHub.
+- [x] subi o projeto para o GitHub.
 
   
 
