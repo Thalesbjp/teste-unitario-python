@@ -26,6 +26,11 @@ class TestCalculadora(unittest.TestCase):
         self.assertEqual(multiplicar(5, 0), 0)
         self.assertEqual(multiplicar(-2, 3), -6)
 
+        """Cenários adicionados """
+        self.assertEqual(multiplicar(7, 1), 7)
+        self.assertAlmostEqual(multiplicar(0.1, 0.2), 0.02, places=7)
+        
+
     def test_dividir(self):
         """Testa se a função dividir está funcionando corretamente."""
         self.assertEqual(dividir(10, 2), 5)
